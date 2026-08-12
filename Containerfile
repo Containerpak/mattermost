@@ -5,5 +5,5 @@ COPY icon.png /usr/share/icons/hicolor/128x128/apps/mattermost.png
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libasound2t64 libgtk-3-0 libnss3 && \
-    dpkg-deb -x /tmp/source / && \
+    dpkg-deb -x /tmp/source / && ln -s /opt/Mattermost/mattermost-desktop /usr/bin/mattermost-desktop && \
     cpak-clean-junk
