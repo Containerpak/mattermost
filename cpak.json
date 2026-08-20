@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Mattermost",
   "description": "Chat and collaborate with Mattermost teams.",
-  "version": "6.2.2",
+  "version": "6.3.0",
   "image": "ghcr.io/containerpak/mattermost:main",
   "binaries": [
     "/usr/bin/mattermost-desktop"

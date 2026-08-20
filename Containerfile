@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:7efa135f9e8248aea360c81631fbb13af40c62d4d806fe09edb542f522f25380 https://github.com/mattermost/desktop/releases/download/v6.2.2/mattermost-desktop_6.2.2-1_amd64.deb /tmp/source
+ADD --checksum=sha256:2f8c63566e50259ebf446033471503b62674d99ec6d98b11a205093a5919902c https://github.com/mattermost/desktop/releases/download/v6.3.0/mattermost-desktop_6.3.0-1_amd64.deb /tmp/source
 
 RUN dpkg-deb -x /tmp/source /out
 
