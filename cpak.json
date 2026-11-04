@@ -4,7 +4,7 @@
   "name": "Mattermost",
   "description": "Chat and collaborate with Mattermost teams.",
   "version": "6.3.0",
-  "image": "ghcr.io/containerpak/mattermost@sha256:d9ad1d3824f649a655a8a5026eb02773facbb3baab8ab826928d7fa722a4f87c",
+  "image": "ghcr.io/containerpak/mattermost@sha256:33aec56f40d4e33be727995c147929114d30503bac3bdc25dee2e89da4c39087",
   "binaries": [
     "/usr/bin/mattermost-desktop"
   ],
